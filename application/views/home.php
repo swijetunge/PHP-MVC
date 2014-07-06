@@ -55,6 +55,8 @@
 							</div>
 						</div><!--/price-range-->
 					</p>
+                    <h5 class="lighter grey smaller"><i class="icon-refresh icon-spin"></i> Updated  <span class="updated">June 30th, 2014</span></h5>
+                    <h5 class="lighter grey smaller"><i class="icon-cog icon-spin"></i> Manage <span class="headingorange">Your Account</span></h5>
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <h3><i class="fa fa-pencil"></i> Ready to Style &amp; Edit</h3>

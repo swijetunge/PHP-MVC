@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<title>Salary Exchange : Home </title>
+	<title>SBW Techs : Home </title>
 	<!-- <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/ico" /> -->
     <link rel="shortcut icon" type="image/x-icon" href="/public/images/favicon.gif" />
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -34,6 +34,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
+
                 <ul class="nav navbar-nav navbar-right">
                 	<li class="nav-home">
                 		<a href="home">Home</a>
@@ -41,15 +42,13 @@
                     <li>
                     	<a href="aboutus">About Us</a>
                     </li>
-                    <li>
-                    	<a href="portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                    	<a href="blog">Blog</a>
-                    </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
                         <ul class="dropdown-menu">
+                            <li><a href="portfolio">Portfolio</a>
+                            </li>
+                            <li><a href="blog">Blog</a>
+                            </li>
                             <li><a href="fullwidth">Full Width Page</a>
                             </li>
                             <li><a href="sidebar">Sidebar Page</a>
@@ -69,6 +68,18 @@
                     </li>
                     <li>
                     	<a href="#" data-toggle="modal" data-target="#myModal">login</a>
+                    </li>
+                    <li>
+                        <a class="navbar-search">
+                        <div class="nav-search minimized" id="nav-search">
+                            <form action="" method="get" class="form-search">
+                                <span class="input-icon">
+                                    <input type="text" name="s" id="search" placeholder="Search Our Site" class="nav-search-input" autocomplete="off" value="Have a question? Start your search here." onfocus="this.value=(this.value=='Have a question? Start your search here.') ? '' : this.value;" onblur="this.value=(this.value=='') ? 'Have a question? Start your search here.' : this.value;">
+                                    <i class="icon-search nav-search-icon"></i>
+                                </span>
+                            </form>
+                        </div>
+                        </a>
                     </li>
                 </ul>
             </div>
