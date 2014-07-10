@@ -29,7 +29,8 @@ jQuery(function($) {
 			});
 		}
 	});
-	
+    
+		
 	// Main Menu Active Items
 	$(window).load(function(){
 		
@@ -57,12 +58,20 @@ jQuery(function($) {
 	// Price Slider 
 	$('#sl2').slider();
 
-	// Pretty Photo
+	//  Portfolio1 Pretty Photo
 	$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
 	});	
 	
-	 
+	
+	 /* Portfolio2 PrettyPhoto */
+    $("a[data-rel^='prettyPhoto']").prettyPhoto({
+        animation_speed: 'fast', /* fast/slow/normal */
+        slideshow: 5000, /* false OR interval time in ms */
+        autoplay_slideshow: false, /* true/false */
+        opacity: 0.80  /* Value between 0 and 1 */
+    });
+    
 	/* Scroll to top*/
 	$(document).ready(function(){
 		$(function () {
@@ -83,6 +92,30 @@ jQuery(function($) {
 		        zIndex: 2147483647 // Z-Index for the overlay
 			});
 		});
+	});
+	
+	/************** FAQs Accordion **********/
+	$('.accordion-toggle').each(function () {
+		
+		$('.accordion-toggle').bind('click', function (e) {
+			
+			if( $(this).hasClass("expanded") ){
+				$(this).removeClass("expanded");
+			} else {
+			
+				if ( $('.accordion-toggle').hasClass("collapsed") ) {
+			        $( '.accordion-toggle' ).removeClass("expanded");
+			    }
+			
+				$(this).addClass("expanded");
+			}
+			
+		});
+	});
+	
+	/****************** Cookie bar ******************/
+	$(document).ready(function() {
+		$('.cookie-message').cookieBar();
 	});
 	
 });

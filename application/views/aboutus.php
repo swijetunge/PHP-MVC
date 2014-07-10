@@ -11,19 +11,19 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('/public/images/p1.jpg');"></div>
+                <div class="fill" style="background-image:url('/public/images/banners/p1.jpg');"></div>
                 <div class="carousel-caption">
                     <h1>Modern Business - A Bootstrap 3 Template</h1>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('/public/images/p2.jpg');"></div>
+                <div class="fill" style="background-image:url('/public/images/banners/p2.jpg');"></div>
                 <div class="carousel-caption">
                     <h1>Ready to Style &amp; Add Content</h1>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('/public/images/p3.jpg');"></div>
+                <div class="fill" style="background-image:url('/public/images/banners/p3.jpg');"></div>
                 <div class="carousel-caption">
                     <h1>Additional Layout Options at <a href="http://startbootstrap.com">http://startbootstrap.com</a>
                     </h1>
@@ -83,7 +83,7 @@
             </div>
 
             <div class="col-sm-4">
-                <img class="img-responsive" src="/public/images/6.jpg">
+                <img class="img-responsive" src="/public/images/banners/6.jpg">
                 <h3>John Smith
                     <small>Job Title</small>
                 </h3>
@@ -101,7 +101,7 @@
             </div>
 
             <div class="col-sm-4">
-                <img class="img-responsive" src="/public/images/5.jpg">
+                <img class="img-responsive" src="/public/images/banners/5.jpg">
                 <h3>John Smith
                     <small>Job Title</small>
                 </h3>
@@ -119,7 +119,7 @@
             </div>
 
             <div class="col-sm-4">
-                <img class="img-responsive" src="/public/images/4.jpg">
+                <img class="img-responsive" src="/public/images/banners/4.jpg">
                 <h3>John Smith
                     <small>Job Title</small>
                 </h3>
@@ -137,7 +137,7 @@
             </div>
 
             <div class="col-sm-4">
-                <img class="img-responsive" src="/public/images/3.jpg">
+                <img class="img-responsive" src="/public/images/banners/3.jpg">
                 <h3>John Smith
                     <small>Job Title</small>
                 </h3>
@@ -155,7 +155,7 @@
             </div>
 
             <div class="col-sm-4">
-                <img class="img-responsive" src="/public/images/2.jpg">
+                <img class="img-responsive" src="/public/images/banners/2.jpg">
                 <h3>John Smith
                     <small>Job Title</small>
                 </h3>
@@ -173,7 +173,7 @@
             </div>
 
             <div class="col-sm-4">
-                <img class="img-responsive" src="/public/images/1.jpg">
+                <img class="img-responsive" src="/public/images/banners/1.jpg">
                 <h3>John Smith
                     <small>Job Title</small>
                 </h3>
@@ -211,7 +211,7 @@
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img class="img-responsive img-customer" src="/public/images/11.jpg">
+												<img class="img-responsive img-customer" src="/public/images/banners/11.jpg">
 											</div>
 											
 										</div>
@@ -221,7 +221,7 @@
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img class="img-responsive img-customer" src="/public/images/12.jpg">
+												<img class="img-responsive img-customer" src="/public/images/banners/12.jpg">
 											</div>
 											
 										</div>
@@ -231,7 +231,7 @@
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img class="img-responsive img-customer" src="/public/images/13.jpg">
+												<img class="img-responsive img-customer" src="/public/images/banners/13.jpg">
 											</div>
 											
 										</div>
@@ -241,7 +241,7 @@
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img class="img-responsive img-customer" src="/public/images/14.jpg">
+												<img class="img-responsive img-customer" src="/public/images/banners/14.jpg">
 											</div>
 											
 										</div>
@@ -251,7 +251,7 @@
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img class="img-responsive img-customer" src="/public/images/15.jpg">
+												<img class="img-responsive img-customer" src="/public/images/banners/15.jpg">
 											</div>
 											
 										</div>
@@ -261,7 +261,7 @@
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img class="img-responsive img-customer" src="/public/images/16.png">
+												<img class="img-responsive img-customer" src="/public/images/banners/16.png">
 											</div>
 											
 										</div>
@@ -274,7 +274,7 @@
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img class="img-responsive img-customer" src="/public/images/11.jpg">
+												<img class="img-responsive img-customer" src="/public/images/banners/11.jpg">
 											</div>
 											
 										</div>
@@ -284,7 +284,7 @@
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img class="img-responsive img-customer" src="/public/images/12.jpg">
+												<img class="img-responsive img-customer" src="/public/images/banners/12.jpg">
 											</div>
 											
 										</div>
@@ -294,7 +294,7 @@
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img class="img-responsive img-customer" src="/public/images/13.jpg">
+												<img class="img-responsive img-customer" src="/public/images/banners/13.jpg">
 											</div>
 											
 										</div>
@@ -304,7 +304,7 @@
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img class="img-responsive img-customer" src="/public/images/14.jpg">
+												<img class="img-responsive img-customer" src="/public/images/banners/14.jpg">
 											</div>
 											
 										</div>
@@ -314,7 +314,7 @@
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img class="img-responsive img-customer" src="/public/images/15.jpg">
+												<img class="img-responsive img-customer" src="/public/images/banners/15.jpg">
 											</div>
 											
 										</div>
@@ -324,7 +324,7 @@
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img class="img-responsive img-customer" src="/public/images/16.png">
+												<img class="img-responsive img-customer" src="/public/images/banners/16.png">
 											</div>
 											
 										</div>

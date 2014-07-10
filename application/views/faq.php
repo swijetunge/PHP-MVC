@@ -25,11 +25,12 @@
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
-                  </a>
-                            </h4>
+                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            	<h4 class="panel-title">
+                            		<div class="panel-icon"></div>
+                					Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                           		 </h4>
+                           	</a>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -40,11 +41,12 @@
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                    Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus?
-                  </a>
-                            </h4>
+                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+	                            <h4 class="panel-title">
+	                            	<div class="panel-icon"></div>
+	                    			Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus?
+	                            </h4>
+                            </a>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -55,11 +57,12 @@
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                    Aenean consequat lorem ut felis ullamcorper?
-                  </a>
-                            </h4>
+                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+	                            <h4 class="panel-title">
+	                            	<div class="panel-icon"></div>
+	                    			Aenean consequat lorem ut felis ullamcorper?
+	                            </h4>
+	                        </a>
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -70,11 +73,12 @@
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
-                  </a>
-                            </h4>
+                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+	                            <h4 class="panel-title">
+	                            	<div class="panel-icon"></div>
+	                    			Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+	                            </h4>
+	                        </a>
                         </div>
                         <div id="collapseFour" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -85,11 +89,12 @@
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                    Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus?
-                  </a>
-                            </h4>
+                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+	                            <h4 class="panel-title">
+	                            	<div class="panel-icon"></div>
+	                    			Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus?
+	                            </h4>
+                            </a>
                         </div>
                         <div id="collapseFive" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -100,11 +105,12 @@
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-                    Aenean consequat lorem ut felis ullamcorper?
-                  </a>
-                            </h4>
+                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+	                            <h4 class="panel-title">
+	                            	<div class="panel-icon"></div>
+	                    			Aenean consequat lorem ut felis ullamcorper?
+	                            </h4>
+                            </a>
                         </div>
                         <div id="collapseSix" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -115,11 +121,12 @@
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
-                  </a>
-                            </h4>
+                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+	                            <h4 class="panel-title">
+	                            	<div class="panel-icon"></div>
+	                   	 			Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+	                            </h4>
+	                        </a>
                         </div>
                         <div id="collapseSeven" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -130,11 +137,12 @@
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
-                    Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus?
-                  </a>
-                            </h4>
+                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
+	                            <h4 class="panel-title">
+	                            	<div class="panel-icon"></div>
+	                    			Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus?
+	                            </h4>
+	                        </a>
                         </div>
                         <div id="collapseEight" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -145,11 +153,12 @@
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
-                    Aenean consequat lorem ut felis ullamcorper?
-                  </a>
-                            </h4>
+                        	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
+	                            <h4 class="panel-title">
+	                            	<div class="panel-icon"></div>
+	                    			Aenean consequat lorem ut felis ullamcorper?
+	                            </h4>
+                            </a>
                         </div>
                         <div id="collapseNine" class="panel-collapse collapse">
                             <div class="panel-body">

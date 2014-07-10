@@ -10,7 +10,25 @@ class controller {
 	
 	public function renderPage($page) {
 		
-		include($_SERVER['DOCUMENT_ROOT'].'/application/views/' .$page. '.php');
+		$filename = $_SERVER['DOCUMENT_ROOT'].'/application/views/'.$page.'.php';
+		
+		if (file_exists($filename)) {
+			
+			    include($_SERVER['DOCUMENT_ROOT'].'/application/views/' .$page. '.php');
+			
+			} else {
+		
+			    echo '<html>
+			            <head>
+			                <meta http-equiv="Refresh" content="0;url=http://'.$_SERVER['SERVER_NAME'].'/errors.html" />
+			            </head><body></body>
+			          </html>';
+				
+				die();
+						
+			}
+		
+		
 		
 	}	
 	

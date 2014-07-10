@@ -14,6 +14,10 @@ function __autoload($classname) {
 		
 		require_once($_SERVER['DOCUMENT_ROOT']. '/application/controllers/' . $classname. '.php');
 	} 
+	else if(file_exists($_SERVER['DOCUMENT_ROOT']. '/application/controllers/admin/' .$classname. '.php')) {
+		
+		require_once($_SERVER['DOCUMENT_ROOT']. '/application/controllers/admin/' . $classname. '.php');
+	} 
 	else if(file_exists($_SERVER['DOCUMENT_ROOT']. '/application/controllers/handlers/' .$classname. '.php')) {
 		
 		require_once($_SERVER['DOCUMENT_ROOT']. '/application/controllers/handlers/' . $classname. '.php');

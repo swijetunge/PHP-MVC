@@ -36,3 +36,5 @@
 .login-panel {
 margin: 15%;
 }
+
+.mlogin button.close { position:relative; right: 10px; top: 10px }

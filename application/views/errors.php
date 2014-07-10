@@ -50,17 +50,17 @@ if ($title == false || strlen($status) != 3) {
                 <p class="lead"><?php if(isset($message)) echo $message;  ?></p>
                 <p>Here are some helpful links to help you find what you're looking for:</p>
                 <ul>
-                    <li><a href="#">Home</a>
+                    <li><a href="/">Home</a>
                     </li>
-                    <li><a href="#">About</a>
+                    <li><a href="aboutus">About</a>
                     </li>
-                    <li><a href="#">Services</a>
+                    <li><a href="portfolio?p=portfolio2">Portfolio</a>
                     </li>
-                    <li><a href="#">Contact</a>
+                    <li><a href="contactus">Contact</a>
                     </li>
-                    <li><a href="#">Blog</a>
+                    <li><a href="blog">Blog</a>
                     </li>
-                    <li><a href="#">Other</a>
+                    <li><a href="admin">Admin</a>
                     </li>
                 </ul>
             </div>

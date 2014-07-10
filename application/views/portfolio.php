@@ -18,15 +18,6 @@
         </div>
         <!-- /.row -->
         
-        <div class="row">
-
-            <div class="col-lg-12">
-                <img class="img-responsive" src="http://placehold.it/1200x300">
-            </div>
-
-        </div>
-        <!-- /.row -->
-        
          <div class="row">
 			<br />
             <section id="portfolio" class="container">

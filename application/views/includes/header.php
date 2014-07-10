@@ -2,9 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<title>SBW Techs : Home </title>
-	<!-- <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/ico" /> -->
-    <link rel="shortcut icon" type="image/x-icon" href="/public/images/favicon.gif" />
+	<title>SB : <?php if(isset($page)){ echo ucfirst($page); } ?></title>
+	<link rel="shortcut icon" href="/public/images/favicon.ico" type="image/ico" />
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<link type="text/css" rel="stylesheet" href="/public/css/bootstrap.css">
 	<link type="text/css" rel="stylesheet" href="/public/css/main.css">
@@ -15,11 +14,17 @@
 	<link type="text/css" rel="stylesheet" href="/public/css/price-range.css">
 	<link type="text/css" rel="stylesheet" href="/public/css/prettyPhoto.css">
 	<link type="text/css" rel="stylesheet" href="/public/font-awesome/css/font-awesome.cus.css">
+	<?php if($page == "portfolio2" ){ ?> 
+		<!-- <link type="text/css" rel="stylesheet" href="/public/css/portfolio2/style.css">  -->
+		<link type="text/css" rel="stylesheet" href="/public/css/portfolio2/responsive.css">
+	<?php } ?>
 </head>
 
 <body>
-	
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="cookie-message ui-widget-header transparent" style="top:0px;">
+			<p>By using this website you allow us to place cookies on your computer. They are harmless and never personally identify you.</p>
+		</div>
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -29,12 +34,11 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-                <a class="navbar-brand" href="home"><img src="/public/images/salex_logo.jpg" alt="Salary Exchange" /> </a>
+                <a class="navbar-brand" href="home"><img src="/public/images/sb_logo.jpg" alt="SB" /> </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-
                 <ul class="nav navbar-nav navbar-right">
                 	<li class="nav-home">
                 		<a href="home">Home</a>
@@ -43,12 +47,19 @@
                     	<a href="aboutus">About Us</a>
                     </li>
                     <li class="dropdown">
+                    	<a href="portfolio" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                    	<ul class="dropdown-menu">
+                            <li><a href="portfolio?p=portfolio">Portfolio 1</a>
+                            </li>
+                            <li><a href="portfolio?p=portfolio2">Portfolio 2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="portfolio">Portfolio</a>
-                            </li>
-                            <li><a href="blog">Blog</a>
-                            </li>
+                        	<li><a href="blog">Blog</a>
+                    		</li>
                             <li><a href="fullwidth">Full Width Page</a>
                             </li>
                             <li><a href="sidebar">Sidebar Page</a>
@@ -61,13 +72,12 @@
                             </li>
                             <li><a href="hulk">Hulk</a>
                             </li>
+                            <li><a href="#" data-toggle="modal" data-target="#myModal">login</a>
+                    		</li>
                         </ul>
                     </li>
                     <li>
                     	<a href="contactus">Contact Us</a>
-                    </li>
-                    <li>
-                    	<a href="#" data-toggle="modal" data-target="#myModal">login</a>
                     </li>
                     <li>
                         <a class="navbar-search">
@@ -91,11 +101,11 @@
     <!-- Modal Markup kept out of all the div elements -->
       <div class="modal fade" id="myModal">
           <div class="modal-dialog">
-              <div class="modal-content">
+              <div class="modal-content mlogin">
+              	<button type="button" class="close" data-dismiss="modal"><img src="public/images/close.png" /></button>
               	<div class="login-panel panel">
 	                  <!-- Modal Header -->
 	                  <div class="modal-header">
-	                      <button type="button" class="close" data-dismiss="modal">&times;</button>
 	                      <h3 class="form-signin-heading">Please sign in</h3>
 	                  </div>
 	                  <!-- Modal Body -->
@@ -109,7 +119,7 @@
 				        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 				        <!-- Modal Footer -->
 		                <div class="modal-footer">
-				            <p>Copyright &copy; Salary Exchange 2014</p>
+				            <p>Copyright &copy; SB 2014</p>
 		                </div>
 				      </form>
 				</div>

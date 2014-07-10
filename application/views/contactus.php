@@ -11,19 +11,19 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('/public/images/p1.jpg');"></div>
+                <div class="fill" style="background-image:url('/public/images/banners/p1.jpg');"></div>
                 <div class="carousel-caption">
                     <h1>Modern Business - A Bootstrap 3 Template</h1>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('/public/images/p2.jpg');"></div>
+                <div class="fill" style="background-image:url('/public/images/banners/p2.jpg');"></div>
                 <div class="carousel-caption">
                     <h1>Ready to Style &amp; Add Content</h1>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('/public/images/p3.jpg');"></div>
+                <div class="fill" style="background-image:url('/public/images/banners/p3.jpg');"></div>
                 <div class="carousel-caption">
                     <h1>Additional Layout Options at <a href="http://startbootstrap.com">http://startbootstrap.com</a>
                     </h1>

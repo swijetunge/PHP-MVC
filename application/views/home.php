@@ -11,19 +11,19 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('/public/images/p1.jpg');"></div>
+                <div class="fill" style="background-image:url('/public/images/banners/p1.jpg');"></div>
                 <div class="carousel-caption">
                     <h1>Modern Business - A Bootstrap 3 Template <a href="sidebar">sidebar</a></h1>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('/public/images/p2.jpg');"></div>
+                <div class="fill" style="background-image:url('/public/images/banners/p2.jpg');"></div>
                 <div class="carousel-caption">
                     <h1>Ready to Style &amp; Add Content</h1>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('/public/images/p3.jpg');"></div>
+                <div class="fill" style="background-image:url('/public/images/banners/p3.jpg');"></div>
                 <div class="carousel-caption">
                     <h1>Additional Layout Options at <a href="http://startbootstrap.com">http://startbootstrap.com</a>
                     </h1>
@@ -107,7 +107,7 @@
 					<div class="product-image-wrapper">
 						<div class="single-products">
 								<div class="productinfo text-center">
-									<img src="/public/images/1.jpg" alt="" />
+									<img src="/public/images/banners/1.jpg" alt="" />
 									<h2>$56</h2>
 									<p>Easy Polo Black Edition</p>
 									<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -132,7 +132,7 @@
 					<div class="product-image-wrapper">
 						<div class="single-products">
 								<div class="productinfo text-center">
-									<img src="/public/images/2.jpg" alt="" />
+									<img src="/public/images/banners/2.jpg" alt="" />
 									<h2>$52</h2>
 									<p>Easy Polo Black Edition</p>
 									<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -158,7 +158,7 @@
 					<div class="product-image-wrapper">
 						<div class="single-products">
 								<div class="productinfo text-center">
-									<img src="/public/images/3.jpg" alt="" />
+									<img src="/public/images/banners/3.jpg" alt="" />
 									<h2>$50</h2>
 									<p>Easy Polo Black Edition</p>
 									<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -209,7 +209,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
-                    <img class="img-responsive" src="/public/images/4.jpg">
+                    <img class="img-responsive" src="/public/images/banners/4.jpg">
                 </div>
             </div>
             <!-- /.row -->
@@ -226,7 +226,7 @@
 
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
-                    <img class="img-responsive" src="/public/images/5.jpg">
+                    <img class="img-responsive" src="/public/images/banners/5.jpg">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <h2>Modern Business Features Include:</h2>
