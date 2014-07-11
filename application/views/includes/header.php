@@ -110,17 +110,17 @@
 	                  </div>
 	                  <!-- Modal Body -->
 	                   <form class="form-signin" role="form">
-				        <input type="email" class="form-control" placeholder="Email address" required autofocus>
-				        <br />
-				        <input type="password" class="form-control" placeholder="Password" required>
-				        <label class="checkbox">
-				          <input type="checkbox" value="remember-me"> Remember me
-				        </label>
-				        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-				        <!-- Modal Footer -->
-		                <div class="modal-footer">
-				            <p>Copyright &copy; SB 2014</p>
-		                </div>
+					        <input name="email" type="email" class="form-control" placeholder="Email address" required autofocus>
+					        <br />
+					        <input name="pass" type="password" class="form-control" placeholder="Password" required>
+					        <label class="checkbox">
+					          <input type="checkbox" value="remember-me"> Remember me
+					        </label>
+					        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+					        <!-- Modal Footer -->
+			                <div class="modal-footer">
+					            <p>Copyright &copy; SB 2014</p>
+			                </div>
 				      </form>
 				</div>
               </div>

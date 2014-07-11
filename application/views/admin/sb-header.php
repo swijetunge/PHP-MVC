@@ -1,3 +1,4 @@
+<?php if(!isset($_SESSION['loggedin']) || ($_SESSION['loggedin']) =='') { header('Location:login'); } ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -343,6 +344,11 @@
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
+                    <?php if(isset($_SESSION['loggedin']) && ($_SESSION['loggedin']) !='') {  ?>
+                    <li>
+                    	<a href="signout"><i class="fa fa-sign-out fa-fw"></i> Log Out</a>
+                    </li>
+                    <?php } ?>
                 </ul>
                 <!-- /#side-menu -->
             </div>

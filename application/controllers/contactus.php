@@ -44,9 +44,9 @@ class contactus extends controller {
 			
 			if($validation->fails())
 			{
-				echo '<pre>';
-				print_r($validation->errors()->first('contact_name'));
-				echo '</pre>';
+				// echo '<pre>';
+				// print_r($validation->errors()->first('name'));
+				// echo '</pre>';
 				
 				if($validation->errors()->first('name')) {
 					$this->error = $validation->errors()->first('name');
@@ -63,7 +63,8 @@ class contactus extends controller {
 				} 
 				
 			} else {
-					echo "ok";
+					// echo "ok";
+					
 					$this->note = 'Thank you for your message.';	
 					$headers = "From: $this->email\r\n"; 
 					$headers .= "Reply-To: $this->email\r\n";
