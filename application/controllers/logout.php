@@ -1,6 +1,6 @@
 <?php
 
-class signout extends controller {
+class logout extends controller {
 		
 	public function __construct() {
 		parent::__construct();

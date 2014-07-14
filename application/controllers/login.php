@@ -48,7 +48,9 @@ class login extends controller {
 					$_SESSION['loggedin'] = true;
 					header('Location:admin');
 				
-				}									
+				} else {
+					$this->error = "Incorrect username or password.";
+				}								
 				
 			}
 			

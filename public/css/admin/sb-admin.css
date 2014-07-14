@@ -256,7 +256,7 @@ body {
 /* Login Page */
 
 .login-panel {
-    margin-top: 25%;
+    margin-top: 15%;
 }
 
 /* Flot Chart Containers */
@@ -383,3 +383,82 @@ table.dataTable thead .sorting:after {
 
 #msg-icon { color:#808080; }
 #msg-icon.msg-iconh { color:#428bca; }
+
+.alert { margin-bottom: -10px; }
+
+
+/*********** inbox **********************/
+.inbox-nav-bar {
+height: 70px;
+margin-bottom: 0;
+padding: 20px 14px;
+background: #fff;
+}
+
+.no-content-padding {
+margin: 10px -14px 0 -14px;
+}
+
+.inbox-nav-bar .page-title {
+display: inline-block;
+margin: 0;
+width: 196px;
+line-height: 33px;
+vertical-align: middle;
+}
+
+.inbox-nav-bar .page-title {
+display: inline-block;
+margin: 0;
+width: 196px;
+line-height: 33px;
+vertical-align: middle;
+}
+
+.txt-color-blueDark {
+color: #4c4f53!important;
+}
+
+.hidden-desktop {
+display: none!important;
+}
+
+.inbox-checkbox-triggered {
+display: inline-block;
+}
+
+#compose-mail-mini {
+margin-left: 4px;
+}
+.btn, a:link, button {
+-webkit-tap-highlight-color: rgba(169,3,41,.5);
+}
+
+.pull-right {
+float: right!Important;
+}
+.inbox-footer .btn-group, .inbox-paging {
+margin-left: 10px;
+}
+
+.page-title span {
+font-size: 16px;
+color: #333;
+display: inline-block;
+vertical-align: 1px;
+}
+
+.inbox-navbar-toggle { display: inline-block; }
+
+@media (max-width: 769px) {
+.inbox-nav { display: none !important; }
+.hidden-tablet { display: none !important; }
+}
+
+@media (min-width: 768px) {
+.inbox-nav { width: 200px; display: inline-block; }
+.inbox-navbar-toggle { display: none !important; }
+}
+
+.bg-color-blue{background-color:#57889c!important}.bg-color-blueLight{background-color:#92a2a8!important}.bg-color-blueDark{background-color:#4c4f53!important}.bg-color-green{background-color:#356e35!important}.bg-color-greenLight{background-color:#71843f!important}.bg-color-greenDark{background-color:#496949!important}.bg-color-red{background-color:#a90329!important}.bg-color-yellow{background-color:#b09b5b!important}.bg-color-orange{background-color:#c79121!important}.bg-color-orangeDark{background-color:#a57225!important}.bg-color-pink{background-color:#ac5287!important}.bg-color-pinkDark{background-color:#a8829f!important}.bg-color-purple{background-color:#6e587a!important}.bg-color-darken{background-color:#404040!important}.bg-color-lighten{background-color:#d5e7ec!important}.bg-color-white{background-color:#fff!important}.bg-color-grayDark{background-color:#525252!important}.bg-color-magenta{background-color:#6e3671!important}.bg-color-teal{background-color:#568a89!important}.bg-color-redLight{background-color:#a65858!important}
+.unread .inbox-data-from>:first-child,.unread .inbox-data-message>:first-child>:first-child{font-weight:700}
