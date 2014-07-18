@@ -2,7 +2,8 @@
 <html>
 
 <head>
-
+	
+	<link rel="shortcut icon" href="/public/images/favicon.ico" type="image/ico" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
