@@ -285,7 +285,7 @@
                         <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages</a>
                     </li>
                     <li>
-						<a href="#"><i class="fa fa-folder-open fa-fw"></i> <span class="menu-item-parent">File Manager</span></a>
+						<a href="filemanager"><i class="fa fa-folder-open fa-fw"></i> <span class="menu-item-parent">File Manager</span></a>
 					</li>
                     <?php if(isset($_SESSION['loggedin']) && ($_SESSION['loggedin']) !='') {  ?>
                     <li>
