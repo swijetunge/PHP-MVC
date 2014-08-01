@@ -611,6 +611,7 @@ ul.rss li::before {
   background-repeat: no-repeat;
   background-position: 5px 5px;
   text-indent: 20px;
+  display: none;
 }
 
 .cookie-message a {
