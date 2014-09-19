@@ -56,25 +56,52 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        	<li><a href="blog">Blog</a>
-                    		</li>
-                            <li><a href="fullwidth">Full Width Page</a>
-                            </li>
-                            <li><a href="sidebar">Sidebar Page</a>
-                            </li>
-                            <li><a href="faq">FAQ</a>
-                            </li>
-                            <li><a href="error">404</a>
-                            </li>
-                            <li><a href="pricingtable">Pricing Table</a>
-                            </li>
-                            <li><a href="hulk">Hulk</a>
-                            </li>
-                            <li><a href="#" data-toggle="modal" data-target="#myModal">login</a>
-                    		</li>
-                        </ul>
+                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Mega Menu <b class="caret"></b></a>
+                    	
+						<ul class="dropdown-menu mega-menu">
+						    <li class="mega-menu-column">
+							    <ul>
+							        <li class="nav-header"><a href="#">Other Pages</a></li>
+									<li class="mobile-hide"><a href="blog">Blog</a>
+		                    		</li>
+		                            <li class="mobile-hide"><a href="fullwidth">Full Width Page</a>
+		                            </li>
+		                            <li class="mobile-hide"><a href="sidebar">Sidebar Page</a>
+		                            </li>
+		                            <li class="mobile-hide"><a href="faq">FAQ</a>
+		                            </li>
+		                            <li class="mobile-hide"><a href="error">404</a>
+		                            </li>
+		                            <li class="mobile-hide"><a href="pricingtable">Pricing Table</a>
+		                            </li>
+		                            <li class="mobile-hide"><a href="hulk">Hulk</a>
+		                            </li>
+		                            <li class="mobile-hide"><a href="#" data-toggle="modal" data-target="#myModal">login</a>
+		                    		</li>
+							    </ul>
+						    </li>    
+						    <li class="mega-menu-column">
+							    <ul>
+							    	<li class="nav-header"><a href="#">Mega Menu 2</a></li>
+							        <img  class="mobile-hide" src="http://placehold.it/150x120">
+									<li class="mobile-hide"><a href="#">Mega-Menu link</a></li>
+							        <li class="mobile-hide"><a href="#">Mega-Menu link</a></li>
+							        <li class="mobile-hide"><a href="#">Mega-Menu link</a></li>
+							        <li class="mobile-hide"><a href="#">Mega-Menu link</a></li>
+							    </ul>
+						    </li> 
+						    <li class="mega-menu-column">
+							    <ul>                            
+							    	<li class="nav-header"><a href="#">Mega Menu 3</a></li>
+							        <img  class="mobile-hide" src="http://placehold.it/150x120">
+									<li class="mobile-hide"><a href="#">Mega-Menu link</a></li>
+							        <li class="mobile-hide"><a href="#">Mega-Menu link</a></li>
+							        <li class="mobile-hide"><a href="#">Mega-Menu link</a></li>
+							        <li class="mobile-hide"><a href="#">Mega-Menu link</a></li>
+							    </ul>
+						    </li> 
+                    	</ul>
+                    	
                     </li>
                     <li>
                     	<a href="contactus">Contact Us</a>
