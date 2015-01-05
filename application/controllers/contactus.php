@@ -8,7 +8,7 @@ class contactus extends controller {
 	public function __construct() {
 		parent::__construct();
 
-		$errorHandler = new ErrorHandler();
+		$errorHandler = new errorHandler();
 		
 		// check for form submission - if it doesn't exist then send back to contact form
 		if (isset($_POST['save']) && $_POST['save'] == 'contact') {
@@ -19,7 +19,7 @@ class contactus extends controller {
 			$this->phone = $_POST['phone'];
 			$this->message = $_POST['message'];
 			
-			$validator = new Validator($errorHandler);
+			$validator = new validator($errorHandler);
 				
 			$validation = $validator->check($_POST, array (
 				'name' => array(
